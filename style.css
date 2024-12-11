@@ -93,3 +93,28 @@
     font-size: 0.9rem;
   }
 }
+
+
+/* Style for the WhatsApp icon */
+.btn-primary i.fab.fa-whatsapp {
+  font-size: 1.5rem; /* Adjust the size as needed */
+  margin-right: 8px; /* Adds space between the icon and the text */
+}
+
+/* Button Styling */
+.btn-primary {
+  display: inline-flex; /* Ensures icon and text are horizontally aligned */
+  align-items: center; /* Vertically center content */
+  background-color: #ff8c00; /* Orange background */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove default anchor styles */
+}
+
+/* Hover effect for the button */
+.btn-primary:hover {
+  background-color: #ff6600; /* Darker orange on hover */
+}
