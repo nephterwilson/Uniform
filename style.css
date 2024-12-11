@@ -1,0 +1,57 @@
+ 
+ 
+ body {
+  background-color:#F8F8F8 ;
+ }
+ 
+ 
+ 
+ 
+ .Uniform {
+  text-align: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Medium screens (Tablets) */
+  @media (max-width: 1024px) {
+    #carouselExampleControls img {
+      height: 70vh; /* Adjusted height for tablet screens */
+    }
+  }
+
+  /* Small screens (Mobile phones) */
+  @media (max-width: 768px) {
+    #carouselExampleControls img {
+      height: 50vh; /* Smaller height for mobile screens */
+    }
+  }
+
+  /* Very small screens (Mobile Portraits) */
+  @media (max-width: 480px) {
+    #carouselExampleControls img {
+      height: 40vh; /* Even smaller height for very small screens */
+    }
+  }
+
+
+  /* Hover effect for images to zoom in */
+.group:hover img {
+    transform: scale(1.1); /* Zoom effect when hovered */
+  }
+  
+  /* Transition effect for smooth zoom */
+  .transition-transform {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Optional: Button appearance when hovered */
+  button:hover {
+    background-color: rgba(255, 165, 0, 1);
+  }
+  
