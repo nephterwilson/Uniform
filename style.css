@@ -118,3 +118,18 @@
 .btn-primary:hover {
   background-color: #ff6600; /* Darker orange on hover */
 }
+
+
+.small-button {
+  background-color: #ff8c00; /* Orange background */
+  color: white;
+  padding: 4px 8px; /* Smaller padding */
+  font-size: 0.8rem; /* Small font size */
+  border-radius: 6px; /* Rounded corners */
+  text-transform: uppercase; /* Uppercase text */
+  transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+  background-color: #ff6600; /* Darker orange on hover */
+}
